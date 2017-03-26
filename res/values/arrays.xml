@@ -616,7 +616,11 @@
         <!-- Do not translate. -->
         <item>@string/night_mode_no</item>
         <!-- Do not translate. -->
+        <item>@string/night_mode_pixel</item>
+        <!-- Do not translate. -->
         <item>@string/night_mode_yes</item>
+        <!-- Do not translate. -->
+        <item>@string/night_mode_samhain</item>
         <!-- Do not translate. -->
         <item>@string/night_mode_auto</item>
     </string-array>
@@ -627,7 +631,11 @@
         <!-- Do not translate. -->
         <item>1</item>
         <!-- Do not translate. -->
+        <item>4</item>
+        <!-- Do not translate. -->
         <item>2</item>
+        <!-- Do not translate. -->
+        <item>3</item>
         <!-- Do not translate. -->
         <item>0</item>
     </string-array>
