@@ -345,4 +345,11 @@
     <string name="dialog_pick_iconpack_title">Pick icon pack</string>
     <string name="default_iconpack_title">Default icons</string>
 
+    <!-- Hardware Key & Navbar disable -->
+    <string name="button_keys_title">Keys</string>
+    <string name="navigation_bar_show_title">Show navigation bar</string>
+    <string name="navigation_bar_show_summary">Force enable navigation bar</string>
+    <string name="hardware_keys_disable_title">Disable hardware keys</string>
+    <string name="hardware_keys_disable_summary">Force disable hardware keys</string>
+
 </resources>

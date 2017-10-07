@@ -19,6 +19,24 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="button_keys"
+        android:title="@string/button_keys_title" >
+
+        <SwitchPreference
+            android:key="navigation_bar_show"
+            android:title="@string/navigation_bar_show_title"
+            android:summary="@string/navigation_bar_show_summary"
+            android:persistent="false" />
+
+        <SwitchPreference
+            android:key="hardware_keys_disable"
+            android:title="@string/hardware_keys_disable_title"
+            android:summary="@string/hardware_keys_disable_summary"
+            android:persistent="false"
+            android:dependency="navigation_bar_show"/>
+    </PreferenceCategory>
+
     <com.gzr.wolvesden.preference.SecureSettingSwitchPreference
         android:key="sysui_volume_up_silent"
         android:title="@string/volbtn_up_zen_title"
