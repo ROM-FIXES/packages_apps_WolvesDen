@@ -20,36 +20,36 @@
     <com.gzr.wolvesden.preference.CustomSeekBarPreference
         android:key="qs_rows_portrait"
         android:title="@string/qs_rows_portrait_title"
-        android:max="5"
-        settings:min="1"
+        settings:maximum="5"
+        settings:minimum="1"
         settings:units="" />
 
     <com.gzr.wolvesden.preference.CustomSeekBarPreference
         android:key="qs_rows_landscape"
         android:title="@string/qs_rows_landscape_title"
-        android:max="3"
-        settings:min="1"
+        settings:maximum="3"
+        settings:minimum="1"
         settings:units="" />
 
     <com.gzr.wolvesden.preference.CustomSeekBarPreference
         android:key="qs_columns_portrait"
         android:title="@string/qs_columns_portrait_title"
-        android:max="7"
-        settings:min="1"
+        settings:maximum="7"
+        settings:minimum="1"
         settings:units="" />
 
     <com.gzr.wolvesden.preference.CustomSeekBarPreference
         android:key="qs_columns_landscape"
         android:title="@string/qs_columns_landscape_title"
-        android:max="9"
-        settings:min="1"
+        settings:maximum="9"
+        settings:minimum="1"
         settings:units="" />
 
     <com.gzr.wolvesden.preference.CustomSeekBarPreference
         android:key="sysui_qqs_count_key"
         android:title="@string/qs_small_tiles_title"
-        android:max="8"
-        settings:min="3"
+        settings:maximum="8"
+        settings:minimum="3"
         settings:units=""
         android:persistent="false" />
 
